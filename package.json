@@ -1,0 +1,27 @@
+{
+  "name": "playlist-kitadev",
+  "version": "1.0.0",
+  "description": "Playlist da Kitadev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroJoseAlves/playlist-kitadev.git"
+  },
+  "author": "Pedro Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroJoseAlves/playlist-kitadev/issues"
+  },
+  "homepage": "https://github.com/PedroJoseAlves/playlist-kitadev#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.5",
+    "nodemon": "^3.1.4"
+  }
+}
